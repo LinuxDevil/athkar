@@ -3,12 +3,6 @@
 
 Are you looking for a way to stay connected to your faith while you work on your code? The Athkar VS Code Extension is here to help! With this extension, you'll receive Islamic Athkar reminders every hour to help you remember Allah and stay focused on your spiritual journey.
 
-## Features
-
--   Provides Islamic Athkar reminders every hour
--   Includes a variety of Athkar to choose from
--   Easy to install and use
-
 ## Installation
 
 1.  Open Visual Studio Code
@@ -21,6 +15,13 @@ Are you looking for a way to stay connected to your faith while you work on your
 
 1.  After installation, the Athkar VS Code Extension will automatically start reminding you with Athkar every hour.
 2.  To choose a different Athkar from the default, go to the extension settings and select your preferred Athkar.
+3.  To run the extension manually and get an Athkar reminder immediately, open the VS Code Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) and search for "Athkar". Then select "Athkar: Show Athkar Now" from the list of commands.
+
+## Features
+
+-   Provides Islamic Athkar reminders every hour
+-   Includes a variety of Athkar to choose from
+-   Easy to install and use
 
 ## Support
 
