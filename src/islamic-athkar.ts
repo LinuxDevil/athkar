@@ -16,6 +16,6 @@ const generateAthkarMessage = (): string => {
 };
 
 export const showAthkar = (): void => {
-    // const athkarMessage = generateAthkarMessage();
-    // vscode.window.showInformationMessage(athkarMessage);
+    const athkarMessage = generateAthkarMessage();
+    vscode.window.showInformationMessage(athkarMessage);
 };
