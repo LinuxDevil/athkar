@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import { showAthkar } from './islamic-athkar';
-
 let interval: NodeJS.Timeout;
 
 export function activate(context: vscode.ExtensionContext) {

@@ -1,16 +1,17 @@
 import * as vscode from 'vscode';
+import { ATHKAR, Theker } from './constants';
+
+const getAthkarArray = (): string[] => {
+    return ATHKAR.map((thker: Theker) => {
+        return thker.zekr;
+    }).filter((thker: string) => {
+        return thker.length < 110;
+    });
+};
+
+const athkar = getAthkarArray();
 
 const generateAthkarMessage = (): string => {
-    const athkar = [
-        'سبحان الله وبحمده',
-        'الحمد لله',
-        'لا إله إلا الله',
-        'الله أكبر',
-        'سبحان الله وبحمده',
-        'الحمد لله',
-        'لا إله إلا الله',
-        'الله أكبر'
-    ];
     const athkarMessage = athkar[Math.floor(Math.random() * athkar.length)];
     return athkarMessage;
 };
