@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "athkar.helloWorld",
-        "title": "Hello World"
+        "command": "athkar.activate",
+        "title": "Activate Athkar for every one hour"
       }
     ]
   },
