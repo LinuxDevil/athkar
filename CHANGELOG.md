@@ -1,9 +1,3 @@
-# Change Log
-
-All notable changes to the "athkar" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Initial release 0.01
+Variaity of Islamic Athkar
+Runs Every 1 Hour
