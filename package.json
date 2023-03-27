@@ -2,7 +2,7 @@
   "name": "athkar",
   "displayName": "athkar for muslims",
   "description": "Your reminder for islamic athkar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "icon128.png",
   "publisher": "AliMohammad",
   "engines": {
@@ -18,8 +18,22 @@
       {
         "command": "athkar.activate",
         "title": "Activate Athkar for every one hour"
+      },
+      {
+        "command": "athkar.deactivate",
+        "title": "Deactivate Athkar"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Athkar",
+      "properties": {
+        "athkar.timeIntervalInMinutes": {
+          "type": "number",
+          "default": 60,
+          "description": "The time interval, in minutes, between Athkar reminders"
+        }
+      }
+    }
   },
   "repository": {
     "type": "git",
