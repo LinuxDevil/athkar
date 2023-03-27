@@ -2,7 +2,7 @@
   "name": "athkar",
   "displayName": "athkar for muslims",
   "description": "Your reminder for islamic athkar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "icon128.png",
   "publisher": "AliMohammad",
   "engines": {

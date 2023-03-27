@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('athkar.activate', () => {
-		interval = setInterval(showAthkar, 60000);
+		interval = setInterval(showAthkar, 3600000);
 		vscode.window.showInformationMessage('Athkar will show now every 1 hour!');
 	});
 
