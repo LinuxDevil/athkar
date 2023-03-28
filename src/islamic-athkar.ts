@@ -5,7 +5,7 @@ const getAthkarArray = (): string[] => {
     return ATHKAR.map((thker: Theker) => {
         return thker.zekr;
     }).filter((thker: string) => {
-        return thker.length < 110;
+        return thker.length < 110 && thker.length > 20;
     });
 };
 

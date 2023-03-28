@@ -12,3 +12,7 @@ Update the usage section of the README.md file
 Updated the interval to 1 hour
 Added a new command to deactive the timer
 Added a new configuration option to set the interval
+
+
+- Initial release 0.05
+Update the usage section of the README.md file
